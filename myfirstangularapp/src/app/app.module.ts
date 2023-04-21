@@ -8,17 +8,19 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { FooterComponent } from './footer/footer.component';
 import { CartComponent } from './cart/cart.component';
 import { ProductsComponent } from './products/products.component';
+import { ContantDetatailsComponent } from './contantDetatails/contantDetatails.component';
 
 
 
 @NgModule({
-  declarations: [			
+  declarations: [				
     AppComponent,
       NavBarComponent,
       HomepageComponent,
       FooterComponent,
       CartComponent,
-      ProductsComponent
+      ProductsComponent,
+      ContantDetatailsComponent
    ],
   imports: [
     BrowserModule,
